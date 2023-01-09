@@ -20,7 +20,7 @@ session_start();
         $cliente->setIdCliente($_SESSION['idCliente']);
       
             ClienteDao::CadastrarCep($cliente);
-             header("location:  ../AreaExterna/index.php");
+             header("location:  ../AreaExterna/carrinho.php");
 
            
             

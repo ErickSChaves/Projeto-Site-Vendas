@@ -78,7 +78,8 @@ CREATE TABLE `tbproduto` (
   `idProduto` int(11) NOT NULL,
   `nomeProduto` varchar(50) NOT NULL,
   `precoProduto` decimal(10,0) NOT NULL,
-  `idCategoria` int(11) NOT NULL
+  `idCategoria` int(11) NOT NULL,
+  `fotoProduto` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

@@ -105,31 +105,31 @@ if(!empty($_SESSION['logincliente'])){
 ?>
         <?php
 
-if(!empty($_SESSION['aviso'])){
+            if(!empty($_SESSION['aviso'])){
 
-if($_SESSION['tipo'] === 'error') {
-?>
+            if($_SESSION['tipo'] === 'error') {
+            ?>
 
-<div class="msg-container" style=" margin-left: 30% "  >
-<p class="msg  <?= $_SESSION['tipo'] ?>" ><?= $_SESSION['aviso'] ?> </p>
-</div>
+            <div class="msg-container" style=" margin-left: 30% "  >
+            <p class="msg  <?= $_SESSION['tipo'] ?>" ><?= $_SESSION['aviso'] ?> </p>
+            </div>
 
-<?php       
-}else{
-?>
+            <?php       
+            }else{
+            ?>
 
-<div class="msg-container" style=" margin-left: 30% "  >
-<p class="msg <?= $_SESSION['tipo'] ?>"><?= $_SESSION['aviso'] ?> </p>
-</div>
+            <div class="msg-container" style=" margin-left: 30% "  >
+            <p class="msg <?= $_SESSION['tipo'] ?>"><?= $_SESSION['aviso'] ?> </p>
+            </div>
 
-<?php
-}
+            <?php
+            }
 
-$_SESSION['aviso'] = '';
-$_SESSION['tipo'] = '';
+            $_SESSION['aviso'] = '';
+            $_SESSION['tipo'] = '';
 
 
-}
+            }
 
 
 

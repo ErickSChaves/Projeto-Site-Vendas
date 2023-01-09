@@ -229,6 +229,12 @@ if(!empty($_SESSION['aviso'])){
         </div>
       </div>
   </div>
+
+</br>
+</br>
+</br>
+</br>
+</br>
         
         <!-- Login End -->
         
